@@ -1,6 +1,6 @@
 # Git commands
 
-[Repository manipulation](###Repository-manipulation)
+[Repository manipulation](#repository-manipulation)
 
 ### Repository manipulation
 ##### Create repository
