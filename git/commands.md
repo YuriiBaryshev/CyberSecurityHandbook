@@ -63,7 +63,7 @@ git revert b9533bb --no-edit # same, but the changes made by the commit with the
 All of the commands below can be run ONLY if commits have not yet been sent to the remote repository.
 ```
 # WARNING Dangerous commands, you can lose uncommitted changes
-git commit --amend -m "Название"  # "re-commit" changes from the last commit, replace it with a new commit with a different message (move the current branch one commit back, keeping the working directory and index "as is", create a new commit with data from the "canceled" commit, but with a new message)
+git commit --amend -m "Name"  # "re-commit" changes from the last commit, replace it with a new commit with a different message (move the current branch one commit back, keeping the working directory and index "as is", create a new commit with data from the "canceled" commit, but with a new message)
 git reset --hard @~      # move HEAD (and branch) to the previous commit, make the working directory and index the same as they were at the time of the previous commit
 git reset --hard 75e2d51 # move HEAD (and branch) to the commit with the specified hash, make the working directory and index the same as they were at the time of the specified commit
 git reset --soft @~      # move HEAD (and branch) to the previous commit, but leave all changes in the working directory and index
