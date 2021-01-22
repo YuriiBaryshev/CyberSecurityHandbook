@@ -11,3 +11,19 @@ git init
 from the command line at the folder.
 
 After running the command respective git's technical files would be created.
+##### Revert changed
+To revert changes You should use command git reset
+
+To hard reset files to HEAD on Git, use the “git reset” command with the “–hard” option and specify the HEAD.
+
+The “–hard” option is used in order to reset the files of the index (or the staging area) and of the working directory.
+
+The "HEAD" is the hash of commit you want go to.
+```
+git reset --hard HEAD~2
+```
+going back two commits before HEAD     
+```
+git reset --hard 7a9ad7f
+```
+going back to commit 7a9ad7f
