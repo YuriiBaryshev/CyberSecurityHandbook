@@ -34,7 +34,7 @@ git add -p       # show new/changed files one by one with their changes and a qu
 
 ##### Removing changes from the index
 ```
-git branch VADIM!BS18B
+
 git reset            # remove from the index all changes added to it (in the working directory all changes will be saved), the antipode of git add
 git reset readme.txt # remove changes to the specified file from the index (changes in the working directory will be saved)
 git reset --hard @~      # move HEAD (and branch) to the previous commit, make the working directory and index the same as they were at the time of the previous commit
