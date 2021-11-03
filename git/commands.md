@@ -20,6 +20,7 @@ After running the command respective git's technical files would be created.
 Before starting work, you need to make some settings:
 
 ```
+
 git config --global user.name "Your Name" # specify the name with which the commits will be signed
 git config --global user.email "e@w.com"  # specify the email that will be in the committer's description
 ```
@@ -112,6 +113,7 @@ To create branch You should run
 
 ```
 git branch <name_branch>
+git branch vadim
 ```
 
 from the command line at the folder.
