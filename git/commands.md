@@ -22,7 +22,7 @@ Before starting work, you need to make some settings:
 ```
 
 git config --global user.name "Your Name" # specify the name with which the commits will be signed
-git config --global user.email "e@w.com"  # specify the email that will be in the committer's description
+git config --global user.email <email>  # specify the email that will be in the committer's description
 ```
 
 ##### Adding changes to the index
@@ -30,13 +30,13 @@ git config --global user.email "e@w.com"  # specify the email that will be in th
 git add .        # add to the index all new, changed, deleted files from the current directory and its subdirectories
 git add text.txt # add a file to the index (has been changed, has been deleted, or is it a new file)
 git add -i       # launch an interactive shell to add only the selected files to the index
-git add -p       # show new/changed files one by one with their changes and a question about tracking/indexing
+git add -p       # show new/changed files one by one with their changes and a question about tracking/indexing  
 ```
 
 ##### Removing changes from the index
 ```
 
-git reset            # remove from the index all changes added to it (in the working directory all changes will be saved), the antipode of git add
+git reset     # remove from the index all changes added to it (in the working directory all changes will be saved), the antipode of git add          
 git reset readme.txt # remove changes to the specified file from the index (changes in the working directory will be saved)
 git reset --hard @~      # move HEAD (and branch) to the previous commit, make the working directory and index the same as they were at the time of the previous commit
 git reset --hard 75e2d51 # move HEAD (and branch) to the commit with the specified hash, make the working directory and index the same as they were at the time of the specified commit
@@ -113,7 +113,7 @@ To create branch You should run
 
 ```
 git branch <name_branch>
-git branch vadim
+
 ```
 
 from the command line at the folder.
