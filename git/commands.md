@@ -120,8 +120,11 @@ If You want to delete branch, You should run
 ```
 git branch -D <name_branch>
 ```
+
 If you want to create new branch and switch at the same time,you should run
+```
 git checkout -b <name_branch>
+```
 ##### Switch branches or restore working tree
 To switch branch you should run 
 ```
