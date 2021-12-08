@@ -173,3 +173,4 @@ See file differences which are not yet staged
 ```
 git diff
 ```
+git cat-file - Provide content or type and size information for repository objects
