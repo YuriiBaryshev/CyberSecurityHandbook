@@ -173,3 +173,5 @@ See file differences which are not yet staged
 ```
 git diff
 ```
+git stash drop This command discards the most recently stashed changeset.
+```
