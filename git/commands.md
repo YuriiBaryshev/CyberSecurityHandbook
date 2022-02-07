@@ -172,6 +172,12 @@ See file differences which are not yet staged
 git diff
 ```
 
+##### Removing resently stashed changes
+Sometimes changes are `stashed` to resolve conflicts or to make an immediate switch to urgent task. When that happens the history should be applied and `stashed` data cleared. In order to do so the following command is to be applied
+```
+git stash drop 
+```
+
 ##### Force removing the last commit from git
 
 To force to remove the last commit from git, use these 2 following commands:
