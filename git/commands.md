@@ -180,3 +180,11 @@ To force to remove the last commit from git, use these 2 following commands:
 git reset --hard HEAD^
 git push origin -f
 ```
+
+##### How to Resolve Merge Conflicts in Git?
+There are a few steps that could reduce the steps needed to resolve merge conflicts in Git.
+
+* The easiest way to resolve a conflicted file is to open it and make any necessary changes
+* After editing the file, we can use the git add a command to stage the new merged content
+* The final step is to create a new commit with the help of the git commit command
+* Git will create a new merge commit to finalize the merge
