@@ -166,10 +166,16 @@ git commit --amend -m "Name"  # "re-commit" changes from the last commit, replac
 git checkout text.txt      # DANGER: undo changes in the file, return the file state existing in the index
 git clean -df              # Delete untraceable files and directories
 ```
-##### Analysing history
+##### Analyzing history
 See file differences which are not yet staged
 ```
 git diff
+```
+
+##### Analyzing files
+Allow to see information for repository objects
+```
+git cat-file <Object>
 ```
 
 ##### Removing resently stashed changes
