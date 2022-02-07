@@ -20,7 +20,6 @@ After running the command respective git's technical files would be created.
 Before starting work, you need to make some settings:
 
 ```
-
 git config --global user.name "Your Name" # specify the name with which the commits will be signed
 git config --global user.email <email>  # specify the email that will be in the committer's description
 ```
@@ -35,7 +34,6 @@ git add -p       # show new/changed files one by one with their changes and a qu
 
 ##### Removing changes from the index
 ```
-
 git reset     # remove from the index all changes added to it (in the working directory all changes will be saved), the antipode of git add          
 git reset readme.txt # remove changes to the specified file from the index (changes in the working directory will be saved)
 git reset --hard @~      # move HEAD (and branch) to the previous commit, make the working directory and index the same as they were at the time of the previous commit
@@ -172,6 +170,15 @@ git clean -df              # Delete untraceable files and directories
 See file differences which are not yet staged
 ```
 git diff
+```
+
+##### Force removing the last commit from git
+
+To force to remove the last commit from git, use these 2 following commands:
+
+```
+git reset --hard HEAD^
+git push origin -f
 ```
 
 ##### How to Resolve Merge Conflicts in Git?
