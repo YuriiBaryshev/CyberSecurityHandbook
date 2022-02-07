@@ -25,6 +25,7 @@ git config --global user.email <email>  # specify the email that will be in the 
 ```
 
 ##### Adding changes to the index
+To make file visible for the Git. They are to be added to the staging area for Git index (staging area).
 ```
 git add .        # add to the index all new, changed, deleted files from the current directory and its subdirectories
 git add text.txt # add a file to the index (has been changed, has been deleted, or is it a new file)
