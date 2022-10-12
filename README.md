@@ -4,7 +4,8 @@ This repository is designed to cumulate information about IT and cyber security 
 ### Topics
 
 [Git commands](/git/commands.md)
-[Git commands](/js/patterns.md)
+
+[JavaScript patterns](/js/patterns.md)
 
 
 ### For contributors
