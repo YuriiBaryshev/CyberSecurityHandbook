@@ -1,0 +1,15 @@
+name: Greetings
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        issue-message: "Thank you for the contribution to open source society by opening an issue"
+        pr-message: "Thank you for the contribution to open source society by creating a pull request"
