@@ -20,8 +20,8 @@ After running the command respective git's technical files would be created.
 Before starting work, you need to make some settings:
 
 ```
-git config --global user.name "Your Name" # specify the name with which the commits will be signed
-git config --global user.email <email>  # specify the email that will be in the committer's description
+git config --global user.name "Your Name"	# specify the name with which the commits will be signed
+git config --global user.email <email>      # specify the email that will be in the committer's description
 ```
 
 ##### Adding changes to the index
@@ -62,12 +62,12 @@ git checkout master  # switch to the commit to which the master points (move HEA
 ##### Switch to another commit and continue work from it
 You will need to create a new branch starting with the specified commit.
 ```
-git checkout -b new-branch 1234567   # create a new-branch branch starting with a commit with hash 1234567 (move HEAD to the specified commit, return the working directory to the state it was at the time of that commit, create a pointer to that commit (branch) with the specified name)
+git checkout -b new-branch 1234567	# create a new-branch branch starting with a commit with hash 1234567 (move HEAD to the specified commit, return the working directory to the state it was at the time of that commit, create a pointer to that commit (branch) with the specified name)
 ```
 
 ##### Restoring changes
 ```
-git checkout 1234567 index.html  # restore the specified file in the working directory at the time of the specified commit (and add this change to the index) (git reset index.html to remove from the index, but keep the changes in the file)
+git checkout 1234567 index.html	# restore the specified file in the working directory at the time of the specified commit (and add this change to the index) (git reset index.html to remove from the index, but keep the changes in the file)
 ```
 
 ##### Copying commits (transferring commits)
@@ -139,9 +139,9 @@ After running the command you will see the name of the branch you switched to at
 ##### Revert changed
 To revert changes You should use command git reset
 
-To hard reset files to HEAD on Git, use the “git reset” command with the “–hard” option and specify the HEAD.
+To hard reset files to HEAD on Git, use the “git reset” command with the “--hard” option and specify the HEAD.
 
-The “–hard” option is used in order to reset the files of the index (or the staging area) and of the working directory.
+The “--hard” option is used in order to reset the files of the index (or the staging area) and of the working directory.
 
 The "HEAD" is the hash of commit you want go to.
 ```
@@ -160,7 +160,7 @@ git revert b9533bb --no-edit # same, but the changes made by the commit with the
 ```
 
 ```
-git commit --amend -m "Name"  # "re-commit" changes from the last commit, replace it with a new commit with a different message (move the current branch one commit back, keeping the working directory and index "as is", create a new commit with data from the "canceled" commit, but with a new message)
+git commit --amend -m "Name" # "re-commit" changes from the last commit, replace it with a new commit with a different message (move the current branch one commit back, keeping the working directory and index "as is", create a new commit with data from the "canceled" commit, but with a new message)
 ```
 
 ```
