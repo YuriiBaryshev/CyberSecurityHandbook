@@ -172,6 +172,11 @@ See file differences which are not yet staged
 ```
 git diff
 ```
+Branches are compared like all other ref inputs to git diff
+```
+git diff branch1..other-feature-branch
+```
+This example introduces the dot operator. The two dots in this example indicate the diff input is the tips of both branches. The same effect happens if the dots are omitted and a space is used between the branches.
 
 ##### Analyzing files
 Allow to see information for repository objects
