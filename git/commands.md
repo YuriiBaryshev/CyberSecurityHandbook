@@ -172,17 +172,6 @@ See file differences which are not yet staged
 ```
 git diff
 ```
-Branches are compared like all other ref inputs to git diff
-```
-git diff branch1..other-feature-branch
-```
-This example introduces the dot operator. The two dots in this example indicate the diff input is the tips of both branches. The same effect happens if the dots are omitted and a space is used between the branches.
-
-git diff also has a special mode for highlighting changes with much better granularity: ‐‐color-words. This mode tokenizes added and removed lines by whitespace and then diffs those.
-```
-git diff --color-words
-```
-Now the output displays only the color-coded words that have changed.
 
 ##### Analyzing files
 Allow to see information for repository objects
