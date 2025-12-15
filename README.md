@@ -18,3 +18,11 @@ This repository was created first and foremost for cyber security specialists an
 For those, who is new to GitHub, please refer to [the basic rules of contribution](https://github.com/firstcontributions/first-contributions)
 
 [List of contributors](CONTRIBUTORS.md)
+## Додаткові корисні команди Git
+
+| Команда | Опис |
+|----------|------|
+| `git log --oneline` | Короткий список комітів |
+| `git diff` | Показати зміни між комітами або файлами |
+| `git stash` | Тимчасово зберегти незакомічені зміни |
+| `git restore <file>` | Відновити файл із попереднього коміту |
