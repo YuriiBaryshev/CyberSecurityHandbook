@@ -41,3 +41,11 @@ If you are new here, please refer to [the basic rules of contribution](https://g
 
 Thanks to all the people who contribute. Don't forget to update this file along with the contribution :) 
 [**View List of Contributors**](CONTRIBUTORS.md)
+
+---
+
+### Корисні команди Git для контролю цілісності та аудиту
+- `git status` — перевірка поточного стану робочого дерева та відстежуваних файлів.
+- `git log --oneline --graph` — наочний перегляд історії коммітів та розгалуження дерева.
+- `git diff` — детальний перегляд різниці між поточним станом файлів та останнім коммітом.
+- `git fsck` — перевірка цілісності внутрішньої бази об'єктів репозиторію.
