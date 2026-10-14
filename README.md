@@ -41,3 +41,4 @@ If you are new here, please refer to [the basic rules of contribution](https://g
 
 Thanks to all the people who contribute. Don't forget to update this file along with the contribution :) 
 [**View List of Contributors**](CONTRIBUTORS.md)
+git status — перевірка стану робочого дерева
